@@ -1,29 +1,80 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>rubendariomaciel</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Portafolio de Ruben Dario Maciel. Desarrollador web autodidacta con experiencia en JavaScript, HTML y CSS. Explora mis proyectos y contacta conmigo.">  
+  <meta charset="UTF-8">
+  <meta     name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RDM</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <header>
-        <h1>Bienvenido a Mi Página Web</h1>
-    </header>
-    <main>
-        <section>
-            <h2>Sobre Mí</h2>
-            <p>Hola, soy un desarrollador web apasionado por crear sitios increíbles.</p>
-        </section>
-        <section>
-            <h2>Proyectos</h2>
-            
-            </ul>
-        </section>
+<body>        
+  <header>            
+    <nav>
+      <ul class="navlista">
+        <li><a href="#sobreMi">Sobre mi</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contactos</a></li>
+      </ul>
+    </nav>
+    <h1>Ruben Dario</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Bienvenido a mi sitio web...</h2>
+      <p id="sobreMi">Me introduje en la programación como hobby. Tuve experiencia previa con Python, aunque limitada a ejercicios y algunos frameworks. A finales de 2024 luego de ver las opciones que tenia desde mi celular, opte por Javascript, css y html para introducirme en el mundo web, la experiencia previa con python me proporcionó una base sólida para seguir aprendiendo ya que me divierte y entretiene bastante. Ahora cuento con pc y las opciones son ilimitadas. Quiero y necesito seguir aprendiendo, poco a poco siendo conciente el tiempo que hoy le dedico.</p>
+    </section>
+        
+    <section class="contenidoproyectos" id="proyectos">Proyectos
+        <ul>
+            <li>
+                <a href="cronometro.html">Cronometro</a>
+                <div><img class="imgproyecto" src="img/proyectocronometro.png" alt="Captura de la web cpn fecha , hora actual y cronometro digital con botones de inicio, pausa y stop reinicio"></div>
+            </li>
+            <li>
+                <a href="tateti.html">Tateti</a>
+                <div class="contimg"><img class="imgproyecto" src="img/proyectotateti.png" alt="Captura de pantalla de un juego de tres en raya en línea. El tablero muestra una partida en desarrollo con fichas azules (X) y rojas (O), y un botón para iniciar una nueva partida"></div> 
+            </li>
+            <li>
+                <a href="listadetareas.html">Lista de tareas</a>
+                <div><img class="imgproyecto" src="img/proyectolistadetareas.png" alt="Captura que muestra una lista de productos con casillas de verificación para marcar como comprados y un campo de texto para agregar nuevos elementos"></div>
+            </li>
+            <li>
+                <a href="juegomental.html">Juego matematico</a>
+                <div><img class="imgproyecto" src="img/proyectojuegomental.png" alt="Captura de la web con calculo a resolver, input, boton de comprobación y resultado de puntuaciónn."></div>
+            </li>
+            <li>
+                <a href="contador.html">Contador</a><img class="imgproyecto" src="img/proyectocontador.png" alt="Captura con un contador y dos botones, uno positivo y uno negativo."></div>
+            </li>
+            <li>
+                <a href="adivinaelnumero.html">Adivina el numero</a>
+                <div><img class="imgproyecto" src="img/proyectoadivinaelnumero.png" alt="Captura de pantalla de mini-juego para adivinar el numero con resultado incorrecto"></div>
+            </li>
+            <li>
+                <a href="rgbhex.html">RGB-HEX</a>
+                <div><img class="imgproyecto" src="img/proyectorgbhex.png" alt="Convertidor de colores RGB a HEX. Muestra un círculo de color verde con los valores RGB y HEX correspondientes"></div>
+            </li>
+        </ul>
+         
+    </section>
+    
+    <section id="contacto">
+        <div class="contenedorContacto">
+            <a href="https://github.com/dariomacielpy"><img src="img/logogithub.png">
+            </a>
+            <a href=""><img src="img/logox.png">
+         </a>
+            <a href="https://discord.gg/pPqqCKFN"><img src="img/logodiscord.png">
+         </a>
+        </div>
+    </section>
+        
+
     </main>
-    <footer>
-        <p>&copy; 2025 rubendariomaciel</p>
-    </footer>
-    <script src="script.js"></script>
-</body>
+
+  <footer>
+    <p>&copy; 2025 Ruben Dario Maciel. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script> </body>
 </html>
