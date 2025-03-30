@@ -1,52 +1,67 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta name="description" content="Portafolio de Ruben Dario Maciel. Desarrollador web autodidacta con experiencia en JavaScript, HTML y CSS. Explora mis proyectos y contacta conmigo.">  
+  <meta name="description" content="Portafolio de Ruben Dario Maciel. Desarrollador web autodidacta con experiencia en JavaScript, HTML y CSS.">  
   <meta charset="UTF-8">
-  <meta     name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RDM</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ruben Dario Maciel | Desarrollador Web</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>        
   <header>            
-    <h1>Ruben Dario</h1>
-    <img src="img/" alt="Ruben Dario Maciel">
+    <h1>Ruben Dario Maciel</h1>
+    <p class="subtitulo">Desarrollador Web</p>
   </header>
 
   <main>
     <section class="bienvenida">
-      <h2>Bienvenido a mi sitio web...</h2>
-      <p id="sobreMi">Me introduje en la programación como hobby. Tuve experiencia previa con Python, aunque limitada a ejercicios y algunos frameworks. A finales de 2024, opte por Javascript, css y html para introducirme en el mundo web, la experiencia previa me proporcionó una base sólida para seguir aprendiendo ya que me divierte y entretiene bastante. Si puedo ayudarte o podes ayudarme contactame...</p>
+      <h2>Bienvenido a mi portafolio</h2>
+      <p id="sobreMi">Me introduje en la programación como hobby. Tuve experiencia previa con Python, aunque limitada a ejercicios y algunos frameworks. A finales de 2024, opté por JavaScript, CSS y HTML para crear webs. Mi experiencia previa me proporcionó una base sólida para seguir aprendiendo, ya que me divierte y entretiene bastante. Si puedo ayudarte o puedes ayudarme, ¡contáctame!</p>
     </section>
         
-    <section class="contenidoproyectos" id="proyectos">Proyectos
-        <ul>
-            <li>
-               
-        </ul>
-         
+    <section class="contenedor" id="proyectos">
+      <h2>Proyectos</h2>
+      <ul class="lista-proyectos">
+        <li><a href="https://tareas.rubendariomaciel.com/" target="_blank" rel="noopener noreferrer">Lista de tareas</a></li>
+        <li><a href="https://listadecompras.rubendariomaciel.com/" target="_blank" rel="noopener noreferrer">Lista de compras</a></li>
+        <li><a href="https://tateti.rubendariomaciel.com/" target="_blank" rel="noopener noreferrer">Tateti</a></li>
+      </ul>
     </section>
     
-    <section id="contacto">
-        <div class="contenedorContacto">
-            <a href="https://github.com/dariomacielpy"><img src="img/logogithub.png">
-            </a>
-            <a href=""><img src="img/logox.png">
-         </a>
-            <a href="https://discord.gg/pPqqCKFN"><img src="img/logodiscord.png">
-         </a>
-        </div>
-    </section>    
+    <section class="contenedor" id="habilidades">
+      <h2>Habilidades</h2>
+      <ul class="lista-habilidades">
+        <li><img src="img/htmlicon.png" alt="HTML" class="icono-habilidad"> HTML</li>
+        <li><img src="img/cssicon.png" alt="CSS" class="icono-habilidad"> CSS</li>
+        <li><img src="img/javascripticon.png" alt="JavaScript" class="icono-habilidad"> JavaScript</li>
+        <li><img src="img/githubicon.png" alt="GitHub" class="icono-habilidad"> GitHub</li>
+      </ul>
+    </section>
 
-    </main>
+    <section class="contenedor" id="trabajos">
+      <h2>Trabajos</h2>
+      <ul class="lista-trabajos">
+        <li><a href="https://perfumessabri.com/" target="_blank" rel="noopener noreferrer">PerfumesSabri</a></li>
+      </ul>
+    </section>
+
+    <section class="contenedor" id="contacto">
+      <h2>Contacto</h2>
+      <div class="contenedor-redes">
+        <a href="https://github.com/dariomacielpy" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <img src="img/githubicon.png" alt="GitHub" class="icono-redes">GitHub
+        </a>
+        <a href="https://discord.gg/pPqqCKFN" target="_blank" rel="noopener noreferrer" aria-label="Discord">
+          <img src="img/discordicon.png" alt="Discord" class="icono-redes">Discord
+        </a>
+      </div>
+    </section>
+  </main>
 
   <footer>
-    <section class="pie">
-        <p></p>
-        <p>&copy; 2025 Ruben Dario Maciel. Todos los derechos reservados.</p>
-    </section>
-    
+    <p>&copy; 2025 Ruben Dario Maciel. Todos los derechos reservados.</p>
   </footer>
 
-  <script src="script.js"></script> </body>
+  <script src="script.js"></script>
+</body>
 </html>
