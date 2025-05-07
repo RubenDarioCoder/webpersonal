@@ -11,10 +11,35 @@ body {
   
   
 header {
-    text-align: center;
-    margin-top: 40px;
-  }
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative; 
+  padding-bottom: 20px;
+}
+
+header::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #1900ff, #4c49fa, #1900ff);
+  border-radius: 3px;
+  animation: loadingAnimation 5s infinite ease-in-out;
+}
+
+@keyframes loadingAnimation {
+  0% { width: 0; opacity: 0; }
+  50% { width: 100%; opacity: 1; }
+  100% { width: 0; opacity: 0; }
+}
+
   
+
 h1 {
     color: #1900ff;
     font-size: 2.5rem;
@@ -47,7 +72,7 @@ main {
   }
   
 .contenedor {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -55,7 +80,7 @@ main {
     padding: 2rem;
     border-radius: 10px;
     margin-bottom: 2rem;
-    width: 70%;
+    width: 50%;
     box-sizing: border-box;
   }
   
