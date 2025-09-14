@@ -6,44 +6,68 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ruben Dario Maciel | Desarrollador Web</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='white'/%3E%3Ctext x='50' y='72' font-family='Arial, sans-serif' font-size='70' font-weight='800' fill='%231401be' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E" type="image/svg+xml">
 </head>
 <body>        
-  <header>        
+  <header id="inicio">        
     <h1>Ruben Dario Maciel</h1>
-    <p class="subtitulo">Desarrollador Web</p>
-
+    <p class="subtitulo">Programador</p>
   </header>
+
+  <!-- Menú de navegación -->
+  <nav class="navegacion-principal">
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#trabajos">Trabajos</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
 
   <main>
     <section class="bienvenida">
       <h2>Bienvenido a mi portafolio</h2>
-      <p id="sobreMi">Me introduje en la programación como hobby. Tuve experiencia previa con Python, aunque limitada a ejercicios y algunos frameworks. A finales de 2024, opté por JavaScript, CSS y HTML para crear webs. Mi experiencia previa me proporcionó una base sólida para seguir aprendiendo, ya que me divierte y entretiene bastante. Si puedo ayudarte o puedes ayudarme, ¡contáctame!</p>
+      <p id="sobreMi">Me introduje en la programación como hobby. Tuve experiencia previa con Python, aunque limitada a ejercicios y algunos frameworks. A finales de 2024, opté por JavaScript, CSS y HTML para crear webs. Mi experiencia previa me proporcionó una base sólida para seguir aprendiendo, ya que me divierte y entretiene bastante. Si puedes ayudarme o puedo ayudarte, no dudes en contactarme.</p>
     </section>
         
     <section class="contenedor" id="proyectos">
       <h2>Proyectos</h2>
       <ul class="lista-proyectos">
-        <li><a href="https://tareas.rubendariomaciel.com/" target="_blank" rel="noopener noreferrer">Lista de tareas</a></li>
-        <li><a href="https://listadecompras.rubendariomaciel.com/" target="_blank" rel="noopener noreferrer">Lista de compras</a></li>
-        <li><a href="https://tateti.rubendariomaciel.com/" target="_blank" rel="noopener noreferrer">Tateti</a></li>
-        <li><a href="https://listamultiple.rubendariomaciel.com/" target="_blank" rel="noopener noreferrer">Lista Multiple</a></li>
-        <li><a href="https://multiplica.rubendariomaciel.com/" target="_blank" rel="noopener noreferrer">Multiplica</a></li>
+        <li><a href="https://tareas.rubendariomaciel.com/" target="_blank" aria-label="Lista de tareas">
+          <img class="iconos-proyectos" src="img/iconos/icono-lista-de-tareas.png" alt="icono lista de tareas"> Lista de tareas</a></li>
+
+        <li><a href="https://listadecompras.rubendariomaciel.com/" target="_blank" aria-label="Lista de compras">
+          <img class="iconos-proyectos" src="img/iconos/icono-lista-de-compras.png" alt="icono lista de compras"> Lista de compras</a></li>
+
+        <li><a href="https://tateti.rubendariomaciel.com/" target="_blank" arial-label="Tateti">
+          <img class="iconos-proyectos" src="img/iconos/icono-tateti.png" alt="icono tateti"> Tateti</a></li>
+
+        <li><a href="https://listamultiple.rubendariomaciel.com/" target="_blank" arial-label="Lista Multiple">
+          <img class="iconos-proyectos" src="img/iconos/icono-lista-multiple.png" alt="icono lista multiple"> Lista Multiple</a></li>
+
+        <li><a href="https://multiplica.rubendariomaciel.com/" target="_blank" arial-label="Multiplica">
+          <img class="iconos-proyectos" src="img/iconos/icono-multiplica.ico" alt="icono multiplica"> Multiplica</a></li>
+
+        <li><a href="https://generarclave.rubendariomaciel.com/" target="_blank" aria-label="Generar Clave">
+          <img class="iconos-proyectos" src="img/iconos/icono-generar-clave.ico" alt="icono generar clave"> Generar Clave
+        </a></li>
       </ul>
     </section>
     
     <section class="contenedor" id="habilidades">
       <h2>Habilidades</h2>
       <ul class="lista-habilidades">
-        <li><a href="https://lenguajehtml.com/" target="_blank" rel="noopener noreferrer" aria-label="HTML">
+        <li><a href="https://lenguajehtml.com/" target="_blank" aria-label="HTML">
           <img src="img/htmlicon.png" alt="HTML" class="icono-habilidad"> HTML
         </a></li>
-        <li><a href="https://lenguajecss.com/" target="_blank" rel="noopener noreferrer" aria-label="HTML">
-          <img src="img/cssicon.png" alt="CSS" class="icono-habilidad"> CSS</li>
-        </a>
-        <li><a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer" aria-label="HTML">
+        <li><a href="https://lenguajecss.com/" target="_blank" aria-label="CSS">
+          <img src="img/cssicon.png" alt="CSS" class="icono-habilidad"> CSS
+        </a></li>
+        <li><a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank" aria-label="JavaScript">
           <img src="img/javascripticon.png" alt="JavaScript" class="icono-habilidad"> JavaScript
         </a></li>
-        <li><a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="HTML">
+        <li><a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
           <img src="img/githubicon.png" alt="GitHub" class="icono-habilidad"> GitHub
         </a></li>
       </ul>
@@ -52,20 +76,49 @@
     <section class="contenedor" id="trabajos">
       <h2>Trabajos</h2>
       <ul class="lista-trabajos">
-        <li><a href="https://perfumessabri.com/" target="_blank" rel="noopener noreferrer">PerfumesSabri</a></li>
-        <li><a href="https://orange-wasp-723065.hostingersite.com/" target="_blank" rel="noopener noreferrer">Sergio Servicio Lavarropas</a></li>
+        <li><a href="https://panificados.aldanamicaela.com" target="_blank">
+          <img src="img/iconos/icono-panificados.png" alt="Panificados Aldi" class="icono-trabajo"> Panificados Aldi</a></li>
+        <li><a href="https://perfumessabri.com/" target="_blank">
+          <img src="img/iconos/icono-perfumersabri.ico" alt="PerfumesSabri" class="icono-trabajo"> PerfumesSabri</a></li>
+        <li><a href="https://orange-wasp-723065.hostingersite.com/" target="_blank">
+          <img src="img/iconos/icono-sergio.png" alt="Sergio Servicio Lavarropas" class="icono-trabajo"> Sergio Servicio Lavarropas</a></li>
       </ul>
     </section>
 
+
+    <!--
     <section class="contenedor" id="contacto">
       <h2>Contacto</h2>
+      <div class="contenedor-formulario">
+        <form id="formulario-contacto">
+          <div class="campo-formulario">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+          </div>
+          <div class="campo-formulario">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="campo-formulario">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="boton-enviar">Enviar Mensaje</button>
+        </form>
+        <p id="mensaje-confirmacion" class="mensaje-oculto">¡Gracias por tu mensaje! Te responderé pronto.</p>
+      </div>
+      -->
+      
       <div class="contenedor-redes">
-        <a href="https://github.com/dariomacielpy" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-          <img src="img/githubicon.png" alt="GitHub" class="icono-redes">GitHub
-        </a>
-        <a href="https://discord.gg/pPqqCKFN" target="_blank" rel="noopener noreferrer" aria-label="Discord">
-          <img src="img/discordicon.png" alt="Discord" class="icono-redes">Discord
-        </a>
+        <p>O encuéntrame en:</p>
+        <div class="iconos-redes">
+          <a href="https://github.com/RubenDarioCoder" target="_blank" aria-label="GitHub">
+            <img src="img/githubicon.png" alt="GitHub" class="icono-redes">GitHub
+          </a>
+          <a href="https://discord.gg/pPqqCKFN" target="_blank" aria-label="Discord">
+            <img src="img/discordicon.png" alt="Discord" class="icono-redes">Discord
+          </a>
+        </div>
       </div>
     </section>
   </main>
